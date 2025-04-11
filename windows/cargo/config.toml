@@ -1,0 +1,11 @@
+[source.crates-io]
+replace-with = 'mirror'
+
+[source.mirror]
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
+
+[http]
+proxy = "http://127.0.0.1:10808"
+
+[https]
+proxy = "http://127.0.0.1:10808"

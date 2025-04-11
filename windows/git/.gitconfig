@@ -1,0 +1,11 @@
+[credential "https://gitee.com"]
+	provider = generic
+[user]
+	name = akashiyachime
+	email = akashiyachime@163.com
+[credential "https://git.code.tencent.com"]
+	provider = generic
+[http]
+	proxy = http://127.0.0.1:10808
+[https]
+	proxy = http://127.0.0.1:10808

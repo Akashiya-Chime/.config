@@ -1,0 +1,40 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "Nushell",
+    "terminal.integrated.profiles.windows": {
+        "Nushell": {
+            "path": "C:/Users/Akashiya/AppData/Local/Programs/nu/bin/nu.exe"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}/Sysnative/cmd.exe",
+                "${env:windir}/System32/cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:/Program Files/starship/bin/;C:/Users/Akashiya/.cargo/bin;C:/Users/Akashiya/go/bin;C:/Users/Akashiya/AppData/Local/Programs/nu/bin/;D:/APP/Git/cmd;D:/APP/MSYS2/mingw64/bin"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.location": "bottom",
+    "lldb.suppressUpdateNotifications": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', Consolas, 'Courier New', monospace",
+    "workbench.editor.wrapTabs": true,
+    "glassit.alpha": 240,
+    "workbench.sideBar.location": "right",
+    "editor.cursorBlinking": "expand"
+}
