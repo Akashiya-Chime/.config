@@ -96,6 +96,7 @@ alias p = explorer
 alias ppt = presenterm
 alias todo = basilk
 alias y = yazi
+alias jn = tjournal
 
 # alias grep
 def grep [pattern] {

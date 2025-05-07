@@ -1,9 +1,9 @@
 {
     "window.zoomLevel": 2,
-    "workbench.colorTheme": "Catppuccin Frappé",
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.colorTheme": "Morandi Gruv",
+    "workbench.iconTheme": "catppuccin-frappe",
     "security.workspace.trust.untrustedFiles": "open",
-    "terminal.integrated.defaultProfile.windows": "Nushell",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.profiles.windows": {
         "Nushell": {
             "path": "C:/Users/Akashiya/AppData/Local/Programs/nu/bin/nu.exe"
@@ -25,7 +25,7 @@
         }
     },
     "terminal.integrated.env.windows": {
-        "PATH": "C:/Program Files/starship/bin/;C:/Users/Akashiya/.cargo/bin;C:/Users/Akashiya/go/bin;C:/Users/Akashiya/AppData/Local/Programs/nu/bin/;D:/APP/Git/cmd;D:/APP/MSYS2/mingw64/bin"
+        "PATH": "C:/Program Files/starship/bin/;C:/Users/Akashiya/.cargo/bin;C:/Users/Akashiya/go/bin;C:/Users/Akashiya/AppData/Local/Programs/nu/bin/;D:/APP/Git/cmd;D:/APP/MSYS2/mingw64/bin;D:/APP/Go/bin"
     },
     "debug.allowBreakpointsEverywhere": true,
     "files.autoSave": "afterDelay",
@@ -36,5 +36,18 @@
     "workbench.editor.wrapTabs": true,
     "glassit.alpha": 240,
     "workbench.sideBar.location": "right",
-    "editor.cursorBlinking": "expand"
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.lineNumbers": "relative",
+    "editor.guides.bracketPairs": true,
+    "leetcode.endpoint": "leetcode-cn",
+    "leetcode.workspaceFolder": "d:\\Code\\.leetcode",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "leetcode.hint.commandShortcut": false,
+    "leetcode.hint.configWebviewMarkdown": false,
+    "explorer.confirmDragAndDrop": false
 }
